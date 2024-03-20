@@ -1,0 +1,484 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 750px;
+    /*border:1px solid black;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:lightgrey;
+}
+.feckarob{
+    width: 450px;
+    height: 80px;
+    /*border:1px solid black;*/
+    margin-bottom: 140px;
+    margin-right: 32px;
+}
+.fectext{
+    font-size: 23px;
+    font-family: Arial;
+    margin-left: 10px;
+}
+
+.karob{
+     width: 330px;
+    height: 340px;
+    /*border:1px solid black;*/
+    border-radius: 8px;
+    background:lightgrey;
+}
+.kr2{
+    width: 329px;
+    height: 297px;
+    /*border:1px solid black;*/
+    opacity: 60%;
+    box-shadow: 0px 0px 8px 1px darkgray;
+    border-radius: 8px;
+    background: white;
+}
+
+#elek{
+    width: 300px;
+    height: 40px;
+    margin-left: 13.5px;
+    border: 1px solid #679fe1;
+    border-radius: 4px;
+    box-shadow: 0px 0px 1px 1px #3700ff;
+    margin-top: 14px;
+    padding-left: 12px;
+}
+
+#parol{
+    width: 300px;
+    height: 40px;
+    margin-left: 13.5px;
+    border: 0.5px solid #d7d7d7;
+    border-radius: 4px;
+    box-shadow: 0px 0px 0.5px 0.5px #858484;
+    margin-top: 14px;
+    padding-left: 12px;
+}
+.krshkarobka{
+    width: 300px;
+    height: 40px;
+    margin-left: 13.5px;
+    background: #076bef;
+    border-radius: 4px;
+    box-shadow: 0px 0px 0.5px 0.5px #076bef;
+    margin-top: 18px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.krshkarobka:hover{
+    transform: scaleY(103%) scaleX(103%);
+    box-shadow: 0px 0px 4px 2px #076bef;
+}
+.krshkarobka p{
+    font-family: Arial;
+    color: white;
+    font-weight: 600;
+    font-size: 19px;
+    margin-top: 10px;
+}
+
+.pr{
+    font-family: Arial;
+    font-weight: 600;
+    font-size: 12px;
+    color: #0015ff;
+    text-decoration: none;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.prl{
+    margin-top: 16px;
+}
+
+.chiziq{
+    width: 300px;
+    border: 0.2px solid darkgrey;
+    opacity: 60%;
+    margin-left: 13.5px;
+    margin-top: 16px;
+}
+.hsob{
+    width: 270px;
+    height: 38px;
+    margin-left: 28.5px;
+    background: #20b900;
+    border-radius: 4px;
+    box-shadow: 0px 0px 0.5px 0.5px #42B72A;
+    margin-top: 18px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.hsob:hover{
+    transform: scaleY(104%) scaleX(104%);
+    box-shadow: 0px 0px 10px 2px #1bff00;
+}
+.hsob p{
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    margin-top: 10px;
+}
+.mshkarob{
+   margin-top: 18px;
+}
+
+.sahy{
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+.sahy:hover{
+    color: blue;
+}
+.mshkarob ul li{
+    font-size: 13px;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+
+
+/*--------------------------------task2--------------------------*/
+
+.con2{
+    width: 100%;
+    height: 700px;
+    background-image: url("../assets/imgs/зеленый фон.jpg");
+    background-repeat: no-repeat;
+    border: 1px solid #000000;
+}
+.container2{
+    width: 400px;
+    height: 500px;
+    border:1px solid black;
+    background:white ;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+    box-shadow: 0px 0px 10px 4px #151715;
+    margin-top: 100px;
+}
+
+#user{
+    width: 300px;
+    height: 50px;
+    border: 1px solid #e7e5e5;
+    background: #e7e5e5;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-top: 15px;
+}
+
+#parolqlik{
+    width: 300px;
+    height: 50px;
+    border: 1px solid #e7e5e5;
+    background: #e7e5e5;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-top:15px;
+}
+.log{
+    /*border: 1px solid #e7e5e5;*/
+    background: #e7e5e5;
+    padding-top:14px;
+    padding-bottom:14px;
+    padding-left:125px;
+    padding-right:125px;
+    font-size: 16px;
+    text-decoration: none;
+    font-family:Arial;
+    color: white;
+    background: #0ba81c;
+}
+.logkarob:hover{
+    transform:scale(1.1);
+}
+.logkarob{
+    margin-top:30px;
+}
+.needkarob{
+    margin-top:36px;
+}
+.needkarob ul li{
+    list-style: none;
+    font-family: Arial;
+    color: #7e7b7b;
+    font-size: 14px;
+}
+.github{
+    text-decoration: none;
+    color: #0ba81c;
+    font-family: Arial;
+    font-size: 15px;
+}
+.github:hover{
+    color: red;
+}
+.welcome{
+    margin-top: 30px;
+}
+.welcome a{
+    font-size: 17px;
+    font-family: Arial;
+    text-decoration: none;
+    color: black;
+}
+.container2 img{
+    margin-top: 60px;
+}
+
+
+
+/*-----------------------task3----------------*/
+
+.container3{
+    width: 100%;
+    height: 800px;
+    /*border:1px solid red;*/
+    background: #FAFAFA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conista{
+    width: 60%;
+    height: 640px;
+    /*border: 1px solid red;*/
+    background:#FAFAFA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.insta{
+    width: 360px;
+    height: 620px;
+    /*border: 1px solid red;*/
+    margin-left:35px;
+}
+.karob2{
+    width: 360px;
+    height: 440px;
+    border: 1px solid #9b9a9a;
+    background: white;
+}
+.insfol{
+    margin-top: 46px;
+    display: flex;
+    justify-content: center;
+}
+#inslogin{
+    width: 280px;
+    height: 40px;
+    border: 1px solid #adabab;
+    background:#FAFAFA;
+    margin-left: 40px;
+    margin-top: 30px;
+    border-radius: 3px;
+    font-size: 12px;
+    padding-left:5px;
+}
+#instaparol{
+    width: 280px;
+    height: 40px;
+    border: 1px solid #adabab;
+    background:#FAFAFA;
+    margin-left: 40px;
+    margin-top: 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    padding-left:5px;
+}
+
+.voykontaner{
+    margin-top: 20px;
+}
+.voyti{
+    width: 280px;
+    height: 40px;
+    border: 1px solid #B2DFFC;
+    background:#B2DFFC;
+    color: white;
+    border-radius: 3px;
+    margin-left: 40px;
+    margin-top: 10px;
+    padding-left:118px;
+    padding-right:118px;
+    padding-top:6px;
+    padding-bottom: 6px;
+    font-family: Arial;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+}
+.voykontaner:hover {
+    transform: scale(1.1);
+}
+.chizcon{
+    width: 280px;
+    height: 30px;
+    /*border: 1px solid #B2DFFC;*/
+    margin-left: 40px;
+    margin-top: 20px;
+    display: flex;
+}
+.chizcon ul li{
+    list-style: none;
+    font-size: 20px;
+    font-family: Arial;
+    color: darkgray;
+    margin-left:18px
+}
+.chiz1{
+    margin-top: 13px;
+    width: 102px;
+    height: 1px;
+    background: darkgray;
+    border: 1px solid darkgray;
+    margin-left: 2px;
+}
+.chiz2{
+    margin-top: 13px;
+    width: 102px;
+    height: 1px;
+    background: darkgray;
+    border: 1px solid darkgray;
+    margin-left:18px
+}
+.fckontaner{
+    width: 280px;
+    height: 30px;
+    /*border: 1px solid #B2DFFC;*/
+    margin-left: 40px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.fckontaner p{
+    font-family: Arial;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 15px;
+    color: #2a5b9b;
+    margin-left: 10px;
+}
+.fckontaner p:hover{
+    color: red;
+}
+.fckontaner img{
+    margin-bottom:1px;
+}
+.zbparol{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+    font-family: Arial;
+    margin-top: 25px;
+}
+.zbparol:hover{
+    color: red;
+    transform: scale(1.1);
+}
+.konista2{
+    width: 360px;
+    height: 60px;
+    margin-top:10px;
+    border: 1px solid #9b9a9a;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.netakk{
+    font-family: Arial;
+    font-size: 13px;
+}
+.zrges{
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: 600;
+    color: #3086C1;
+}
+.zrges:hover{
+    color: #0015ff;
+}
+.ustanovp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:18px;
+    font-family: Arial;
+    font-size: 13px;
+}
+.im2{
+    margin-left: 10px;
+}
+.im2:hover{
+    transform: scale(1.1);
+}
+.im1:hover{
+    transform: scale(1.1);
+}
+.imcon{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.tegicontainer{
+    width: 100%;
+    height: 100px;
+    background:#FAFAFA;
+}
+.tegi{
+    width: 80%;
+    /*border:1px solid blue;*/
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    font-family: Arial;
+    font-size: 12px;
+    text-decoration: none;
+}
+.I{
+    text-decoration: none;
+    color: #696767;
+}
+.I:hover{
+    transform: scale(1.1);
+    border-bottom: 1px solid #696767;
+    color:black;
+}
+.M{
+    text-decoration: none;
+    color: #7e7b7b;
+}
+.M:hover{
+    color:black;
+}
